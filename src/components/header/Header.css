@@ -7,16 +7,18 @@
 .main-col-1-desc{
     font-size: 100px;
     font-family: 'Anton', sans-serif;
+    /* font-family: 'Passion One', sans-serif; */
     font-weight: 600;
     line-height: 120px;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     overflow: hidden;
-    transform: translate3d(0px, -0.0019px, 0px)
+    /* transform: translate3d(0px, -0.0019px, 0px) */
   }
   
   .desc-1{
     animation-name: desc-1;
     animation-duration: 0.7s;
+    transform: translate3d(0px, 19px, 0px);
   }
   @keyframes desc-1 {
     from {
@@ -26,6 +28,7 @@
       margin-left: 0%;
     }
   }
+  
   .desc-2{
     animation-name: desc-2;
     animation-duration: 1s;
@@ -64,16 +67,36 @@
   }
 
   .socials{
-    margin-top: 62%;
+    margin-top: 61%;
     margin-left: 90%;
+    font-size: 1.2em;
     animation-name: socials;
     animation-duration: 2.5s;
+    transition: font-size 1s;
   }
   @keyframes socials {
     from {
       margin-top: 100%;
     }
     to {
-      margin-top: 62%;
+      margin-top: 61%;
     }
+  }
+  .soc-1{
+    transition-timing-function: ease-in-out;
+  }
+  .soc-1:hover{
+    font-size: 0.7em;
+  }
+  .soc-2{
+    transition-timing-function: ease-in-out;
+  }
+  .soc-2:hover{
+    font-size: 0.7em;
+  }
+  .soc-3{
+    transition-timing-function: ease-in-out;
+  }
+  .soc-3:hover{
+   font-size: 0.7em;
   }

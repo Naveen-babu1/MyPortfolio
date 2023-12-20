@@ -20,9 +20,9 @@ const Header = () => {
         </Col>
         <Col>
           <div className="socials">
-            <div>About</div>
-            <div>Linkedin</div>
-            <div>Github</div>
+            <div className="soc-1">About</div>
+            <div className="soc-2">Linkedin</div>
+            <div className="soc-3">Github</div>
           </div>
         </Col>
       </Row>
