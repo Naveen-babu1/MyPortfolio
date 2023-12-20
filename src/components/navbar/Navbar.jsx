@@ -13,7 +13,7 @@ const Navbar = () => {
         </Col>
         <Col>
           <div className="main-col-2-card-4">
-            <div className="location-pin">.</div>
+            <div className="location-pin"></div>
             <h5>Boston, MA</h5>
           </div>
         </Col>

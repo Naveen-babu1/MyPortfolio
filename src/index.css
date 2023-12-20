@@ -1,6 +1,8 @@
 body{
-  font-family: 'Pixelify Sans', sans-serif;
-  background-color: #f8f9fa;
+  /* font-family: 'Pixelify Sans', sans-serif; */
+  font-family: 'Anton', sans-serif;
+/* font-family: 'Poppins', sans-serif; */
+  background-color: #f2f2f2;
   color: #000000;
   cursor: cell;
 }
