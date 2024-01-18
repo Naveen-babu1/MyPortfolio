@@ -1,6 +1,6 @@
 .logo {
-  font-size: 2em;
-  font-weight: 400;
+  font-size: 1.5em;
+  font-weight: 900;
 }
 .nav {
   margin-top: 1.5em;
@@ -24,4 +24,14 @@
     filter: blur(0.7px);
     -webkit-filter: blur(0.7px);
     margin-right: 5%;
+  }
+  .color{
+    color: #6E06F2;
+  }
+  .menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: large;
+    font-weight: 700;
   }

@@ -9,13 +9,14 @@ const Navbar = () => {
     <Container>
       <Row className="nav">
         <Col className="logo" xs={8}>
-          NAVEEN BABU
+          Naveen<span className="color">babu</span>
         </Col>
         <Col>
-          <div className="main-col-2-card-4">
-            <div className="location-pin"></div>
-            <h5>Boston, MA</h5>
-          </div>
+        <div className="menu">
+          <div className="">Projects</div>
+          <div className="">Skills</div>
+          <div className="">About</div>
+        </div>
         </Col>
       </Row>
     </Container>
