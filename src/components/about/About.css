@@ -1,0 +1,16 @@
+.about{
+    margin-top: 3%;
+    height: 100vh;
+}
+.about-header{
+    font-size: 5em;
+    font-weight: 900;
+    margin-top: 3%;
+}
+.about-desc{
+    margin-top: 3%;
+    font-size: 1.2em;
+    font-weight: 100;
+    letter-spacing: 1.2px;
+    line-height: 40px;
+}

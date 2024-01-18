@@ -1,6 +1,7 @@
 import Navbar from "../navbar/Navbar";
 import Header from "../header/Header";
 import AnimatedCursor from "react-animated-cursor";
+import About from "../about/About";
 function App() {
   return (
     <div className="App">
@@ -27,6 +28,7 @@ function App() {
       />
       <Navbar />
       <Header />
+      <About />
     </div>
   );
 }
