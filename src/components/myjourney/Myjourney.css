@@ -1,0 +1,27 @@
+.myjourney-header{
+ font-size: 4em;
+ font-weight: 900;
+}
+.myjourney-row1{
+    margin-top: 3%;
+}
+.myjourney-num{
+    font-size: 4em;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.myjourney-desc-head{
+    font-size: 1.5em;
+}
+.myjourney-desc{
+    margin-top: 2%;
+}
+.myjourney-row2{
+    margin-top: 12%;
+}
+.myjourney-row3{
+    margin-top: 12%;
+    margin-bottom: 10%;
+}

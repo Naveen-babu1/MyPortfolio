@@ -2,6 +2,7 @@ import Navbar from "../navbar/Navbar";
 import Header from "../header/Header";
 import AnimatedCursor from "react-animated-cursor";
 import About from "../about/About";
+import Myjourney from "../myjourney/Myjourney";
 function App() {
   return (
     <div className="App">
@@ -29,6 +30,7 @@ function App() {
       <Navbar />
       <Header />
       <About />
+      <Myjourney />
     </div>
   );
 }
