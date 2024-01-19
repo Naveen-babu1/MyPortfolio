@@ -17,7 +17,8 @@ const Myjourney = () => {
         </Col>
         <Col sm={10}>
           <div className="myjourney-desc-head"><span className="color">Easwari Engineering College</span></div>
-          <div>Electrical & Electronice Engineering, India.</div>
+          <div>Electrical & Electronice Engineering, 2017-2021.</div>
+          <div>Chennai, India.</div>
           <div className="myjourney-desc">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
@@ -34,6 +35,7 @@ const Myjourney = () => {
         </Col>
         <Col sm={10}>
           <div className="myjourney-desc-head"><span className="color">Tata Consulatancy Services</span></div>
+          <div>Frontend Developer, 2021-2023.</div>
           <div>Chennai, India.</div>
           <div className="myjourney-desc">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -51,6 +53,7 @@ const Myjourney = () => {
         </Col>
         <Col sm={10}>
           <div className="myjourney-desc-head"><span className="color">Northeastern University</span></div>
+          <div>Masters in Information Systems, 2023-present.</div>
           <div>Boston, MA.</div>
           <div className="myjourney-desc">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
