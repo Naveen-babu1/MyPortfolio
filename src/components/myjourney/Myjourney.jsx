@@ -1,9 +1,27 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./Myjourney.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 const Myjourney = () => {
+    const [scrollPosition, setScrollPosition] = useState(0);
+    const componentRef = useRef(null);
+
+    const handleScroll = () => {
+      if (componentRef.current) {
+        const componentTop = componentRef.current.getBoundingClientRect().top;
+        setScrollPosition(Math.max(0, window.scrollY - componentTop));
+      }
+    };
+    useEffect(() => {
+      // Add scroll event listener
+      window.addEventListener('scroll', handleScroll);
+  
+      // Remove event listener on component unmount
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, []);
   return (
     <Container>
       <Row>
@@ -12,8 +30,9 @@ const Myjourney = () => {
         </div>
       </Row>
       <Row className="myjourney-row1">
-        <Col sm={2}>
+        <Col sm={2} ref={componentRef} className="line-container">
           <div className="myjourney-num">01</div>
+          <div className="vertical-line" style={{ height: `${scrollPosition}px` }} />
         </Col>
         <Col sm={10}>
           <div className="myjourney-desc-head"><span className="color">Easwari Engineering College</span></div>
@@ -30,8 +49,9 @@ const Myjourney = () => {
         </Col>
       </Row>
       <Row className="myjourney-row2">
-        <Col sm={2}>
+        <Col sm={2} ref={componentRef} className="line-container">
           <div className="myjourney-num">02</div>
+          <div className="vertical-line" style={{ height: `${scrollPosition}px` }} />
         </Col>
         <Col sm={10}>
           <div className="myjourney-desc-head"><span className="color">Tata Consulatancy Services</span></div>
@@ -48,8 +68,9 @@ const Myjourney = () => {
         </Col>
       </Row>
       <Row className="myjourney-row3">
-        <Col sm={2}>
+        <Col sm={2} ref={componentRef} className="line-container">
           <div className="myjourney-num">03</div>
+          <div className="vertical-line" style={{ height: `${scrollPosition}px` }} />
         </Col>
         <Col sm={10}>
           <div className="myjourney-desc-head"><span className="color">Northeastern University</span></div>
@@ -63,6 +84,14 @@ const Myjourney = () => {
             tincidunt augue interdum. Elementum integer enim<br></br> neque
             volutpat ac tincidunt vitae semper quis.
           </div>
+        </Col>
+      </Row>
+      <Row className="myjourney-row4">
+        <Col sm={2}>
+          <div className="myjourney-num">04</div>
+        </Col>
+        <Col sm={10}>
+          <div className="myjourney-desc-head-last">Could be <span className="color"> Your Coumpany...</span></div>
         </Col>
       </Row>
     </Container>
