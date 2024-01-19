@@ -51,12 +51,14 @@ const Header = () => {
             <a
               href="https://www.linkedin.com/in/naveenbabujbn/"
               target="_blank"
+              rel="noreferrer"
             >
               <img src={Linkedin} alt="" />
             </a>
             <a
               href="https://www.instagram.com/0xnaveen_/"
               target="_blank"
+              rel="noreferrer"
             >
               <img src={Insta} alt="" />
             </a>
