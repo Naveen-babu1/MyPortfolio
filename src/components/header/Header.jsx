@@ -57,7 +57,6 @@ const Header = () => {
             <a
               href="https://www.instagram.com/0xnaveen_/"
               target="_blank"
-              rel="noopener noreferrer"
             >
               <img src={Insta} alt="" />
             </a>
