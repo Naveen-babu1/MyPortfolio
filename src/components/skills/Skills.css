@@ -1,0 +1,26 @@
+.skills{
+    height: 40vh;
+    /* margin-top: 5%; */
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 1%;
+}
+
+.skills-row{
+    margin-top: 5%;
+    display: inline-block;
+    animation: 20s slide infinite linear;
+}
+.skills-row img{
+    width: 5em;
+    margin: 0 40px;
+    display: inline-block;
+}
+
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }to{
+        transform: translateX(-100%);
+    }
+}

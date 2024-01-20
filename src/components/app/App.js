@@ -3,6 +3,7 @@ import Header from "../header/Header";
 import AnimatedCursor from "react-animated-cursor";
 import About from "../about/About";
 import Myjourney from "../myjourney/Myjourney";
+import Skills from "../skills/Skills";
 function App() {
   return (
     <div className="App">
@@ -30,6 +31,7 @@ function App() {
       <Navbar />
       <Header />
       <About />
+      <Skills />
       <Myjourney />
     </div>
   );

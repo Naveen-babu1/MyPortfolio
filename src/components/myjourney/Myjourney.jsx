@@ -23,7 +23,7 @@ const Myjourney = () => {
       };
     }, []);
   return (
-    <Container>
+    <Container className="myjourney">
       <Row>
         <div className="myjourney-header">
           My <span className="color">Journey.</span>
