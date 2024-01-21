@@ -4,6 +4,8 @@ import AnimatedCursor from "react-animated-cursor";
 import About from "../about/About";
 import Myjourney from "../myjourney/Myjourney";
 import Skills from "../skills/Skills";
+import Projheader from "../projects/Projheader";
+import Projects from "../projects/Projects";
 function App() {
   return (
     <div className="App">
@@ -33,6 +35,8 @@ function App() {
       <About />
       <Skills />
       <Myjourney />
+      <Projheader />
+      <Projects />
     </div>
   );
 }
