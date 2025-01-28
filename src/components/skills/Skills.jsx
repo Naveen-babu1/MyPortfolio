@@ -20,9 +20,9 @@ const Skills = () => {
   return (
     <Container className="skills">
       <Row className="myjourney-header">
-        <div>
+        <h1  className="skills-h1">
           Skills<span className="color">.</span>
-        </div>
+        </h1>
       </Row>
       {/* <div className="skills-main"> */}
       <div className=" skills-row">

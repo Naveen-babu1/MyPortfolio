@@ -1,6 +1,6 @@
 import Navbar from "../navbar/Navbar";
 import Header from "../header/Header";
-import AnimatedCursor from "react-animated-cursor";
+// import AnimatedCursor from "react-animated-cursor";
 import About from "../about/About";
 import Myjourney from "../myjourney/Myjourney";
 import Skills from "../skills/Skills";
@@ -9,7 +9,7 @@ import Projects from "../projects/Projects";
 function App() {
   return (
     <div className="App">
-      <AnimatedCursor
+      {/* <AnimatedCursor
         innerSize={15}
         outerSize={45}
         color="110,6,242"
@@ -29,7 +29,7 @@ function App() {
           "button",
           ".link",
         ]}
-      />
+      /> */}
       <Navbar />
       <Header />
       <About />

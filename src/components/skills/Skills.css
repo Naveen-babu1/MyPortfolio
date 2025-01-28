@@ -5,6 +5,11 @@
     white-space: nowrap;
     margin-top: 1%;
 }
+.skills h1{
+    font-size: 1em;
+    font-weight: 700;
+    color: #281950;
+}
 
 .skills-row{
     margin-top: 5%;
