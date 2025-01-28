@@ -8,18 +8,17 @@ const About = () => {
   return (
     <Container className="about">
       <Row>
-        <Col  className="about-col-1">
+        <Col className="about-col-1">
           <div className="about-header">
-            About <span className="color">me.</span>
+          Crossing Oceans, Crafting Code
           </div>
           <div className="about-desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
-            <br></br>
-            Commodo viverra maecenas accumsan lacus. Fringilla ut morbi
-            tincidunt augue interdum. Elementum integer enim<br></br> neque
-            volutpat ac tincidunt vitae semper quis. Fringilla urna porttitor
-            rhoncus dolor purus non enim praesent elementum. <br></br>
+            From the bustling city of Chennai, India, to the dynamic energy
+            of Boston, USA, this journey has been about more than just
+            mile, it's about turning big dreams into reality. Along the way,
+            I’ve grown as a developer, embracing new challenges and
+            opportunities to push my boundaries. Each step has shaped my passion
+            for building, learning, and making an impact through tech.
           </div>
         </Col>
         <Col className="about-col-2">

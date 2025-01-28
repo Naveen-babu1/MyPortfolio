@@ -3,10 +3,10 @@
     /* margin-top: 5%; */
     overflow: hidden;
     white-space: nowrap;
-    margin-top: 1%;
+    /* margin-top: 1%; */
 }
 .skills h1{
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight: 700;
     color: #281950;
 }
@@ -17,7 +17,7 @@
     animation: 20s slide infinite linear;
 }
 .skills-row img{
-    width: 5em;
+    width: 3em;
     margin: 0 40px;
     display: inline-block;
 }
@@ -26,6 +26,6 @@
     from{
         transform: translateX(0);
     }to{
-        transform: translateX(-100%);
+        transform: translateX(-50%);
     }
 }

@@ -28,16 +28,19 @@
 font-size: 3.7em;
 font-weight: 700;
 color: #281950;
+text-align: center;
 }
 .second{
   font-size: 1.5em;
   font-weight: 500;
   color: #281950;
+  text-align: center;
 }
 .third{
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 .underline{
   position: absolute;

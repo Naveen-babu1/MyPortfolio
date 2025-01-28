@@ -34,9 +34,9 @@ function App() {
       <Header />
       <About />
       <Skills />
-      <Myjourney />
+      {/* <Myjourney />
       <Projheader />
-      <Projects />
+      <Projects /> */}
     </div>
   );
 }
