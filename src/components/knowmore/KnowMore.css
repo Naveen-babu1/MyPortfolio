@@ -1,0 +1,33 @@
+.knowmore{
+    width: 75%;
+    border-radius: 15px;
+    background-image: linear-gradient(to right,#FFFAEB, #FCD6E9);
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20vh;
+    border: #f6bdd9 0.7px solid;
+}
+.birdcoffee{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.knowmore-col-1{
+    display: block;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.knowmore-header{
+    margin: 10%;
+    font-size: 1.2em;
+}
+.resume-button Button{
+    width: 150px;
+}
+.resume-button{
+    margin-left: 10%;
+    margin-top: -10%;
+}

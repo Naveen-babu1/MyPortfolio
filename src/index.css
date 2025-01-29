@@ -1,4 +1,9 @@
+*{
+  box-sizing: border-box;
+}
 body{
+ margin: 0;
+ 
 /* font-family: 'Anton', sans-serif; */
   /* font-family: 'Roboto', sans-serif; */
   /* font-family: "po", serif; */
@@ -14,7 +19,5 @@ font-family: "Merriweather", serif;
 /* background: linear-gradient(234deg, rgba(255,255,255,1) 0%, rgba(193,216,242,1) 38%, rgba(148,187,233,1) 83%); */
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
+
+

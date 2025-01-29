@@ -49,15 +49,14 @@ text-align: center;
 }
 .airbln1{
   width: 140px;
-  position: absolute;
-  margin-top: 25em;
-  margin-left: 70em;
+  margin-top: 5em;
+  /* margin-left: 70em; */
 }
 .airbln2{
-  width: 80px;
-  position: absolute;
-  margin-top: 28em;
-  margin-left: 5em;
+  width: 120px;
+  /* position: absolute; */
+  margin-top: 23em;
+  /* margin-left: 5em; */
 }
 .goto{
   font-size: 40px;
@@ -83,7 +82,7 @@ text-align: center;
   margin-top: 5%;
   width: 200px;
   height: 45px;
-  background-image: linear-gradient(to right,#8E06F2, #6E06F2);
+  background-image: linear-gradient(to right,#b250f7, #6E06F2);
   border-radius: 30px;
   border: none;
   font-size: large;

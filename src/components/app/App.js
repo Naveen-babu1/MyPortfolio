@@ -2,6 +2,7 @@ import Navbar from "../navbar/Navbar";
 import Header from "../header/Header";
 // import AnimatedCursor from "react-animated-cursor";
 import About from "../about/About";
+import KnowMore from "../knowmore/KnowMore";
 import Myjourney from "../myjourney/Myjourney";
 import Skills from "../skills/Skills";
 import Projheader from "../projects/Projheader";
@@ -35,6 +36,7 @@ function App() {
       <Header />
       <About />
       <Skills />
+      <KnowMore />
       {/* <Myjourney />
       <Projheader />
       <Projects /> */}

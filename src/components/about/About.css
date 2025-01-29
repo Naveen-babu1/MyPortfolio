@@ -1,9 +1,12 @@
 .about{
+    /* position: relative; */
     height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
+
 .about-col-1{
     display: flex;
     justify-content: center;
@@ -34,3 +37,61 @@
     line-height: 30px;
     /* text-align: center; */
 }
+.amagicpattern { 
+    position: absolute;
+    z-index: -1;
+    margin-top: -0px;
+    margin-left: 1000px;
+    filter: blur(80px);
+    -webkit-filter: blur(80px);
+    width: 20%;
+    height: 20%;
+    background-size: cover;
+    background-position:  center;
+    background-repeat: repeat;
+    background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3ClinearGradient id=%22b%22 gradientTransform=%22rotate(-45 .5 .5)%22%3E%3Cstop offset=%22NaN%25%22 stop-color=%22%238ec5fc%22%2F%3E%3C%2FlinearGradient%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M799.5 671.5Q611 843 408.5 778T173 475.5q-33-237.5 199-267t424 131q192 160.5 3.5 332Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22url(%23b)%22 d=%22M799.5 671.5Q611 843 408.5 778T173 475.5q-33-237.5 199-267t424 131q192 160.5 3.5 332Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  }
+  .amagicpattern2 { 
+    position: absolute;
+    z-index: -1;
+    margin-top: 0px;
+    margin-left: 450px;
+    filter: blur(110px);
+    -webkit-filter: blur(110px);
+    width: 20%;
+    height: 20%;
+    background-size: cover;
+    background-position:  center;
+    background-repeat: repeat;
+    background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3ClinearGradient id=%22b%22 gradientTransform=%22rotate(-45 .5 .5)%22%3E%3Cstop offset=%22NaN%25%22 stop-color=%22%238ec5fc%22%2F%3E%3C%2FlinearGradient%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M799.5 671.5Q611 843 408.5 778T173 475.5q-33-237.5 199-267t424 131q192 160.5 3.5 332Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22url(%23b)%22 d=%22M799.5 671.5Q611 843 408.5 778T173 475.5q-33-237.5 199-267t424 131q192 160.5 3.5 332Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  }
+  
+  .amagicpattern1 { 
+    position: absolute;
+    z-index: -1;
+    margin-top: -220px;
+    margin-left: 620px;
+    filter: blur(80px);
+    -webkit-filter: blur(80px);
+    width: 20%;
+    height: 20%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat;
+    background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3ClinearGradient id=%22b%22 gradientTransform=%22rotate(-45 .5 .5)%22%3E%3Cstop offset=%22NaN%25%22 stop-color=%22%23e0c3fc%22%2F%3E%3C%2FlinearGradient%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M799.5 671.5Q611 843 408.5 778T173 475.5q-33-237.5 199-267t424 131q192 160.5 3.5 332Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22url(%23b)%22 d=%22M799.5 671.5Q611 843 408.5 778T173 475.5q-33-237.5 199-267t424 131q192 160.5 3.5 332Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  }
+  .amagicpattern3 { 
+    position: absolute;
+    z-index: -1;
+    margin-top: -220px;
+    margin-left: 750px;
+    filter: blur(110px);
+    -webkit-filter: blur(110px);
+    width: 20%;
+    height: 20%;
+    background-size: cover;
+    background-position:  center;
+    background-repeat: repeat;
+    background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3ClinearGradient id=%22b%22 gradientTransform=%22rotate(-45 .5 .5)%22%3E%3Cstop offset=%22NaN%25%22 stop-color=%22%23e0c3fc%22%2F%3E%3C%2FlinearGradient%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M799.5 671.5Q611 843 408.5 778T173 475.5q-33-237.5 199-267t424 131q192 160.5 3.5 332Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22url(%23b)%22 d=%22M799.5 671.5Q611 843 408.5 778T173 475.5q-33-237.5 199-267t424 131q192 160.5 3.5 332Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  }
+  
